@@ -140,6 +140,8 @@ _Bu işlem sonrasında `git status` komutu ile durum kontrol edildiği zaman **e
 `*` operatörü dizin içerisinde ki bütün dosyaları git projesinin takibinin dışına çıkartmak için kullanılır. <br/>
 Örneğin `Notes/*` komutu ile git projesinde ki **Notes** klasörünün içerisinde ki tüm dosyaları git'in takibinden çıkartmak için kullanılır.
 <br/>
+Yada `*.jpg` komutu ile git projesinde uzantısı **jpg** olan bütün dosyalar git tarafından takip edilmeyecektir.
+<br/>
 
 `!` operatörü haricinde işlem yapmak için kullanılmaktadır. <br/>
 Örneğin `!Notes/lifecycle.png` komutu ile git takibi yapılırken `Notes/lifecycle` dosyasının kesinlikle git üzerinde olması gerektiğinin bilgisini vermek için kullanılır.
