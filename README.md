@@ -1,6 +1,6 @@
 # GIT KULLANIMI 
 
-Bu dokümanın sadece hatırlatma için eklenmiştir, daha detaylı bilgi ve eğitim serisi için Barış Aslan'ın hazırlamış olduğu   [eğitim serisini buraya tıklayıp](https://www.youtube.com/watch?v=rWG70T7fePg&list=PLPrHLaayVkhnNstGIzQcxxnj6VYvsHBHy) izlemenizi kesinlike tavsiye ederim.
+Bu dokümanın sadece hatırlatma için eklenmiştir, daha detaylı bilgi ve eğitim serisi için Barış Aslan'ın hazırlamış olduğu   [eğitim serisini](https://www.youtube.com/watch?v=rWG70T7fePg&list=PLPrHLaayVkhnNstGIzQcxxnj6VYvsHBHy) izlemenizi kesinlike tavsiye ederim.
 <br/>
 <br/>
 Ayrıca bu doküman hazırlanırken [Help Github](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax), [Markdown Syntax için](https://daringfireball.net/projects/markdown/syntax) ve [Git Life Cycle (Yaşam Döngüsü) için](https://www.toolsqa.com/git/git-life-cycle) ilgili kaynaklar yalnızca bilgilendirme amaçlı kullanılmıştır.
@@ -50,6 +50,10 @@ Doküman sonunda oluşturulmuş olan [.gitignore](#gitignore)  için [Git](https
 `touch filename.txt` Mevcut dizin üzerine **filename.txt** isimli dosya eklemek için kullanılır. <br/>
 `touch filename{2..5}.txt` Mevcut dizin üzerine **filename2.txt, filename3.txt, filename4.txt ve filename.txt** isminde **4** adet dosya oluşturmaya olanak sağlar.
 
+## **Git Life Cycle (~Yaşam Döngüsü~)**
+![Git Life Cycle Görüntülenemiyor](https://raw.githubusercontent.com/umitkarabacak/git-usage/master/Git-LifeCycle.png) 
+<br/>
+
 ## Sık Kullanılan Git Komutları
 `git config --global user.name "kullanıcı adı"` komutu ile ~işletim sistemi~ için *global* olarak **kullanıcı adı**  tanımlamaya olanak sağlar. <br/>
 
@@ -58,14 +62,6 @@ Doküman sonunda oluşturulmuş olan [.gitignore](#gitignore)  için [Git](https
 `git config --global user.name` komutu ile ~işletim sistemi~ için *global* olarak kayıt edilmiş **kullanıcı adı**  bilgisini gösterir. <br/>
 
 `git config --global user.email` komutu ile ~işletim sistemi~ için *global* olarak kayıt edilmiş **mail adresi**  bilgisini gösterir. <br/>
-
-## **Git Life Cycle (~Yaşam Döngüsü~)**
-![Git Life Cycle Görüntülenemiyor](https://raw.githubusercontent.com/umitkarabacak/git-usage/master/Git-LifeCycle.png) 
-<br/>
-
-
-## Git Komutları
-<br/>
 
 > *Söz konusu komutlar kullanılırken her zaman için yukarıda ki yaşam döngüsü hatırlanmalıdır. Bu sayede kullanımına daha kısa bir sürede adapte olunacaktır.* <br/>
 > _Unutmayın `git status` her zaman sizin yanınzda._
